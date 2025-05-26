@@ -1,73 +1,100 @@
-<section style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
-  <h2 style="text-align:center; margin-bottom: 40px; font-size: 2.2em; color: #0b3d91;">Our Case Study</h2>
-  
-  <div class="case-studies" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinay's Project Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #0b3d91;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vinay's Project & Certification Showcase</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- AWS Deployment with Terraform Card -->
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">AWS Deployment with Terraform</h3>
-      <p style="color: #333;">Automating AWS services using Terraform for scalable AI solutions.</p>
-      <a href="https://www.youtube.com/watch?v=NvDL_lHqLOI&feature=shared" target="_blank"
-         style="display: inline-block; margin-top: 15px; background-color: #0b3d91; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500;">
-         ▶️ Watch Now
-      </a>
-      <p style="margin-top: 10px; font-size: 0.9em; color: #666;">Available on <strong>1st May</strong></p>
-    </div>
+  <main>
+    <iframe src="case_study_combined.html" width="100%" height="1600px" frameborder="0" style="border: none;"></iframe>
 
-    <!-- Certification Cards -->
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">NVIDIA Certified – AI Infrastructure</h3>
-      <a href="https://www.credly.com/badges/1ab07c05-431f-4b1d-9b61-eed258fb7d49/public_url" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Certificate</a>
-    </div>
+    <section style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
+      <h2 id="certifications" style="text-align:center; margin-bottom: 30px; font-size: 2em; color: #0b3d91;">Certifications</h2>
+      <ul style="list-style: none; padding: 0; text-align: center; font-size: 1em;">
+        <li><a href="https://www.credly.com/badges/1ab07c05-431f-4b1d-9b61-eed258fb7d49/public_url" target="_blank">✅ NVIDIA Certified – AI Infrastructure</a></li>
+        <li><a href="https://www.credly.com/badges/9b3d6f52-2683-4622-b5e8-9eb10e62a115/public_url" target="_blank">✅ AWS Certified Solutions Architect</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/databricks-llm-in-production-and-machine-learning/271024227" target="_blank">✅ Databricks LLM in Production</a></li>
+        <li><a href="https://learn.microsoft.com/en-us/users/vinayvadlagattu-9521/credentials/a03771dbac3c33dd" target="_blank">✅ Azure AI Engineer Associate</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/aws-generative-ai-for-data-scientists-and-machine-learnings/267854323" target="_blank">✅ AWS Generative AI for Data Scientists</a></li>
+        <li><a href="https://credentials.databricks.com/b104db65-48e9-4ad2-9939-6fef0624c2fd#acc.AjykWT26" target="_blank">✅ Generative AI Fundamentals (Databricks)</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/microsoft-sharepoint-certified-professional/269631348" target="_blank">✅ Microsoft SharePoint Professional</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/certified-devops-leader/162569205" target="_blank">✅ Certified DevOps Leader</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/phoenix-project-trainer/162569206" target="_blank">✅ Phoenix Project Trainer</a></li>
+      </ul>
+    </section>
 
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">AWS Certified Solutions Architect</h3>
-      <a href="https://www.credly.com/badges/9b3d6f52-2683-4622-b5e8-9eb10e62a115/public_url" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Certificate</a>
-    </div>
+    <section style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
+      <h2 id="projects" style="text-align:center; margin-bottom: 30px; font-size: 2em; color: #0b3d91;">Project Demos</h2>
+      <ul style="list-style: none; padding: 0; text-align: center; font-size: 1em;">
+        <li><a href="end-to-end_sagemaker_demo.html" target="_blank">📁 End-to-End SageMaker Demo (Available June 1st)</a></li>
+        <li><a href="deployment_to_cloud.html" target="_blank">📁 Deployment to Cloud (Available May 28th)</a></li>
+        <li><a href="rag_end-to-end.html" target="_blank">📁 RAG End-to-End (Available June 1st)</a></li>
+        <li><a href="fine-tuning_of_llm.html" target="_blank">📁 Fine-Tuning of LLM (Available June 1st)</a></li>
+        <li><a href="mlflow_end-to-end.html" target="_blank">📁 MLflow End-to-End (Available May 27th)</a></li>
+        <li><a href="ml_pipelines.html" target="_blank">📁 ML Pipelines (Available May 29th)</a></li>
+        <li><a href="aws_kubernetes_deployment.html" target="_blank">📁 AWS Kubernetes Deployment (Available May 30th)</a></li>
+      </ul>
+    </section>
 
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">Databricks LLM in Production</h3>
-      <a href="https://www.slideshare.net/slideshow/databricks-llm-in-production-and-machine-learning/271024227" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Slides</a>
-    </div>
+    <section style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
+      <h2 id="mltips" style="text-align:center; margin-bottom: 30px; font-size: 2em; color: #0b3d91;">ML Tips & Tricks</h2>
+      <ul style="list-style: none; padding: 0; text-align: center; font-size: 1em;">
+        <li>💡 Use `MLflow` for reproducible experiments and tracking model metrics.</li>
+        <li>💡 Use `LangChain` agents to build flexible NLP workflows for LLM applications.</li>
+        <li>💡 Modularize code using Python packages and pipeline abstractions (e.g., `prefect`, `kfp`).</li>
+        <li>💡 Add model monitoring with `evidently`, `WhyLabs`, or `Prometheus + Grafana` for production insights.</li>
+        <li>💡 Always log hyperparameters, data versions, and metrics during training.</li>
+        <li>💡 Use `pydantic` for schema validation in ML APIs.</li>
+        <li>💡 Use `Docker + FastAPI` for lightweight ML inference deployments.</li>
+      </ul>
+    </section>
 
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">Azure AI Engineer Associate</h3>
-      <a href="https://learn.microsoft.com/en-us/users/vinayvadlagattu-9521/credentials/a03771dbac3c33dd?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Credential</a>
-    </div>
+  </main>
 
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">AWS Generative AI for Data Scientists</h3>
-      <a href="https://www.slideshare.net/slideshow/aws-generative-ai-for-data-scientists-and-machine-learnings/267854323" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Slides</a>
-    </div>
-
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">Generative AI Fundamentals</h3>
-      <a href="https://credentials.databricks.com/b104db65-48e9-4ad2-9939-6fef0624c2fd#acc.AjykWT26" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Credential</a>
-    </div>
-
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">Microsoft SharePoint Professional</h3>
-      <a href="https://www.slideshare.net/slideshow/microsoft-sharepoint-certified-professional/269631348" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Slides</a>
-    </div>
-
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">Certified DevOps Leader</h3>
-      <a href="https://www.slideshare.net/slideshow/certified-devops-leader/162569205" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Slides</a>
-    </div>
-
-    <div class="card" style="background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.07); width: 280px; padding: 25px; text-align: center;">
-      <h3 style="color: #0b3d91; font-size: 1.2em;">Phoenix Project Trainer</h3>
-      <a href="https://www.slideshare.net/slideshow/phoenix-project-trainer/162569206" target="_blank"
-         style="display: inline-block; margin-top: 10px; color: #0b3d91; font-weight: 500;">🔗 View Slides</a>
-    </div>
-
-  </div>
-</section>
+  <footer>
+    <p>&copy; 2025 Vinay Kumar Vadlagattu</p>
+  </footer>
+</body>
+</html>
