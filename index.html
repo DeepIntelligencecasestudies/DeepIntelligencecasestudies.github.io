@@ -46,29 +46,24 @@
       margin-bottom: 20px;
       text-align: center;
     }
-    .certification-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      padding: 0;
+    ul {
       list-style: none;
+      padding: 0;
+      text-align: center;
     }
-    .certification-list li {
-      background-color: #e6f0ff;
-      border-radius: 8px;
-      padding: 10px 15px;
-      font-size: 0.95em;
-      transition: transform 0.3s ease;
+    ul li {
+      margin: 12px 0;
+      font-size: 1em;
     }
-    .certification-list li a {
-      color: #0b3d91;
+    ul li a {
       text-decoration: none;
+      color: #0b3d91;
       font-weight: 500;
+      transition: all 0.3s ease;
     }
-    .certification-list li:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    ul li a:hover {
+      color: #003366;
+      text-decoration: underline;
     }
     .case-studies {
       display: flex;
@@ -98,7 +93,218 @@
   <main>
 
     <!-- Certifications -->
+Skip to content
+Chat history
+
+You said:
+Uploaded image
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinay's Project Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fb;
+      color: #333;
+    }
+    header, footer {
+      background-color: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    section {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-bottom: 40px;
+      padding: 30px;
+    }
+    section h2 {
+      font-size: 2em;
+      color: #0b3d91;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    ul li {
+      margin: 12px 0;
+      font-size: 1em;
+    }
+    ul li a {
+      text-decoration: none;
+      color: #0b3d91;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    ul li a:hover {
+      color: #003366;
+      text-decoration: underline;
+    }
+    .case-studies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.07);
+      width: 280px;
+      padding: 25px;
+      text-align: center;
+    }
+  </style>
+
+    <!-- Certifications -->
     <section id="certifications">
       <h2>Certifications</h2>
-      <ul class="certification-list">
-        <li><a href="https://www.credly.com/badges/1ab0
+      <ul>
+        <li><a href="https://www.credly.com/badges/1ab07c05-431f-4b1d-9b61-eed258fb7d49/public_url" target="_blank">✅ NVIDIA Certified – AI Infrastructure</a></li>
+        <li><a href="https://www.credly.com/badges/9b3d6f52-2683-4622-b5e8-9eb10e62a115/public_url" target="_blank">✅ AWS Certified Solutions Architect</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/databricks-llm-in-production-and-machine-learning/271024227" target="_blank">✅ Databricks LLM in Production</a></li>
+        <li><a href="https://learn.microsoft.com/en-us/users/vinayvadlagattu-9521/credentials/a03771dbac3c33dd" target="_blank">✅ Azure AI Engineer Associate</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/aws-generative-ai-for-data-scientists-and-machine-learnings/267854323" target="_blank">✅ AWS Generative AI for Data Scientists</a></li>
+        <li><a href="https://credentials.databricks.com/b104db65-48e9-4ad2-9939-6fef0624c2fd#acc.AjykWT26" target="_blank">✅ Generative AI Fundamentals</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/microsoft-sharepoint-certified-professional/269631348" target="_blank">✅ Microsoft SharePoint Professional</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/certified-devops-leader/162569205" target="_blank">✅ Certified DevOps Leader</a></li>
+        <li><a href="https://www.slideshare.net/slideshow/phoenix-project-trainer/162569206" target="_blank">✅ Phoenix Project Trainer</a></li>
+      </ul>
+    </section>
+
+    <!-- Case Studies -->
+    <section id="projects">
+      <h2>Our Case Study</h2>
+      <div class="case-studies">
+        <div class="card">
+          <h3 style="color: #0b3d91;">AWS Deployment with Terraform</h3>
+          <p>Automating AWS services using Terraform for scalable AI solutions.</p>
+          <a href="https://www.youtube.com/watch?v=NvDL_lHqLOI&feature=shared" target="_blank"
+             style="display: inline-block; margin-top: 15px; background-color: #0b3d91; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500;">
+             ▶️ Watch Now
+          </a>
+          <p style="margin-top: 10px; font-size: 0.9em; color: #666;">Available since <strong>1st May</strong></p>
+        </div>
+
+        <div class="card"><h3>End-to-End SageMaker Demo</h3><p>Coming Soon</p><p>Available June 1</p></div>
+        <div class="card"><h3>LLM model deployment on to AWS Sagemaker</h3><a href="https://youtu.be/pBFKxzzuJg8" target="_blank"
+             style="display: inline-block; margin-top: 15px; background-color: #0b3d91; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500;">
+             ▶️ Watch Now
+          </a></div>
+        <div class="card"><h3>RAG End-to-End</h3><p>Coming Soon</p><p>Available June 1</p></div>
+        <div class="card"><h3>Fine-Tuning of LLM</h3><p>Coming Soon</p><p>Available June 1</p></div>
+        <div class="card"><h3>MLflow End-to-End</h3><p>Coming Soon</p><p>Available May 27</p></div>
+        <div class="card"><h3>ML Pipelines</h3><p>Coming Soon</p><p>Available May 29</p></div>
+        <div class="card"><h3>AWS Kubernetes Deployment</h3><p>Coming Soon</p><p>Available May 30</p></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vinay Kumar Vadlagattu</p>
+  </footer>
+</body>
+</html>....Pls arrange the certifications in ROW wise rather than column wise
+ChatGPT said:
+To display the certifications in a row-wise layout instead of a column, you’ll need to update the HTML and CSS of your current list. Here's how you can modify your code:
+
+✅ Updated CSS:
+Add or modify your CSS to style the list items in a row-wise, responsive layout:
+
+.certification-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.certification-list li {
+  background-color: #e6f0ff;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 0.95em;
+  transition: transform 0.3s ease;
+}
+
+.certification-list li a {
+  color: #0b3d91;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.certification-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+<ul class="certification-list">
+  <li><a href="https://www.credly.com/badges/1ab07c05-431f-4b1d-9b61-eed258fb7d49/public_url" target="_blank">✅ NVIDIA Certified – AI Infrastructure</a></li>
+  <li><a href="https://www.credly.com/badges/9b3d6f52-2683-4622-b5e8-9eb10e62a115/public_url" target="_blank">✅ AWS Certified Solutions Architect</a></li>
+  <li><a href="https://www.slideshare.net/slideshow/databricks-llm-in-production-and-machine-learning/271024227" target="_blank">✅ Databricks LLM in Production</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/users/vinayvadlagattu-9521/credentials/a03771dbac3c33dd" target="_blank">✅ Azure AI Engineer Associate</a></li>
+  <li><a href="https://www.slideshare.net/slideshow/aws-generative-ai-for-data-scientists-and-machine-learnings/267854323" target="_blank">✅ AWS Generative AI for Data Scientists</a></li>
+  <li><a href="https://credentials.databricks.com/b104db65-48e9-4ad2-9939-6fef0624c2fd#acc.AjykWT26" target="_blank">✅ Generative AI Fundamentals</a></li>
+  <li><a href="https://www.slideshare.net/slideshow/microsoft-sharepoint-certified-professional/269631348" target="_blank">✅ Microsoft SharePoint Professional</a></li>
+  <li><a href="https://www.slideshare.net/slideshow/certified-devops-leader/162569205" target="_blank">✅ Certified DevOps Leader</a></li>
+  <li><a href="https://www.slideshare.net/slideshow/phoenix-project-trainer/162569206" target="_blank">✅ Phoenix Project Trainer</a></li>
+</ul>
+
+    <!-- Case Studies -->
+    <section id="projects">
+      <h2>Our Case Study</h2>
+      <div class="case-studies">
+        <div class="card">
+          <h3 style="color: #0b3d91;">AWS Deployment with Terraform</h3>
+          <p>Automating AWS services using Terraform for scalable AI solutions.</p>
+          <a href="https://www.youtube.com/watch?v=NvDL_lHqLOI&feature=shared" target="_blank"
+             style="display: inline-block; margin-top: 15px; background-color: #0b3d91; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500;">
+             ▶️ Watch Now
+          </a>
+          <p style="margin-top: 10px; font-size: 0.9em; color: #666;">Available since <strong>1st May</strong></p>
+        </div>
+
+        <div class="card"><h3>End-to-End SageMaker Demo</h3><p>Coming Soon</p></div>
+        <div class="card"><h3>Deployment to Cloud</h3><p>Coming Soon</p></div>
+        <div class="card"><h3>RAG End-to-End</h3><p>Coming Soon</p></div>
+        <div class="card"><h3>Fine-Tuning of LLM</h3><p>Coming Soon</p></div>
+        <div class="card"><h3>MLflow End-to-End</h3><p>Coming Soon</p></div>
+        <div class="card"><h3>ML Pipelines</h3><p>Coming Soon</p></div>
+        <div class="card"><h3>AWS Kubernetes Deployment</h3><p>Coming Soon</p></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vinay Kumar Vadlagattu</p>
+  </footer>
+</body>
+</html>
